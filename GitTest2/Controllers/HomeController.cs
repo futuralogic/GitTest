@@ -12,13 +12,21 @@ namespace Controllers {
 	public class HomeController : Controller {
 		public ActionResult Index()
 		{
-			ViewData["Message"] = "Hello, world.";
+			ViewData["Message"] = "Beer List";
 
 			List<Beer> beers = new List<Beer>();
 			beers.Add( new Beer {
-				AlcoholPercent = 10.6,
-				Brewery = "Whatever",
-				Name = "Something Interesting"
+				AlcoholPercent = 6.2,
+				Brewery = "Abbaye Notre-Dame d'Orval",
+				Name = "Orval",
+				Country = "Belgium"
+			});
+
+			beers.Add( new Beer {
+				AlcoholPercent = 9.0,
+				Brewery = "Unibroue",
+				Name = "Don de Dieu",
+				Country = "Canada"
 			});
 
 			return View( beers );
