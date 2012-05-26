@@ -10,7 +10,7 @@ namespace Controllers {
 	public class HomeController : Controller {
 		public ActionResult Index()
 		{
-			ViewData["Message"] = "Hello, World!";
+			ViewData["Message"] = "Hello, world.";
 			return View( );
 		}
 	}
