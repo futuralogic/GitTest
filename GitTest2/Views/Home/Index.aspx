@@ -7,6 +7,8 @@
 <body>
 	<div>
 		<%= Html.Encode(ViewData["Message"]) %>
+		<br/>
+		<div>Gee, I wish this did Razor in MonoDevelop.</div>
 	</div>
 </body>
 
