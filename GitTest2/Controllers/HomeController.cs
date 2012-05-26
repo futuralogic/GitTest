@@ -10,7 +10,7 @@ namespace Controllers {
 	public class HomeController : Controller {
 		public ActionResult Index()
 		{
-			ViewData["Message"] = "Welcome to ASP.NET MVC on Mono!";
+			ViewData["Message"] = "Hello, World!";
 			return View( );
 		}
 	}
