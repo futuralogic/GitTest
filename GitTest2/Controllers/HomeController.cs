@@ -13,11 +13,8 @@ namespace Controllers {
 		public ActionResult Index()
 		{
 			ViewData["Message"] = "Aaron's Beer List";
-<<<<<<< HEAD
 
 			// Some comments.
-=======
->>>>>>> 2c243e46e2f983858d90cdb3124191060bc1d893
 
 			List<Beer> beers = new List<Beer>();
 			beers.Add( new Beer {
