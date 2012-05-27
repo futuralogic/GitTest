@@ -12,7 +12,7 @@ namespace Controllers {
 	public class HomeController : Controller {
 		public ActionResult Index()
 		{
-			ViewData["Message"] = "Beer List";
+			ViewData["Message"] = "Aaron's Beer List";
 
 			List<Beer> beers = new List<Beer>();
 			beers.Add( new Beer {

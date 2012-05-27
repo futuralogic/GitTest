@@ -5,7 +5,7 @@
 <head runat="server">
 	<title></title>
 </head>
-<body>
+<body style="background-color:#000000;color:#ffffff">
 	<div>
 		<%= Html.Encode(ViewData["Message"]) %>
 	</div>
