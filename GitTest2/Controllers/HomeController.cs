@@ -14,8 +14,6 @@ namespace Controllers {
 		{
 			ViewData["Message"] = "Aaron's Beer List";
 
-			// Some comments.
-
 			List<Beer> beers = new List<Beer>();
 			beers.Add( new Beer {
 				AlcoholPercent = 6.2,
@@ -29,6 +27,13 @@ namespace Controllers {
 				Brewery = "Unibroue",
 				Name = "Don de Dieu",
 				Country = "Canada"
+			});
+
+			beers.Add (new Beer {
+				AlcoholPercent = 12,
+				Brewery = "Gulden Draak",
+				Name = "Gulden Draak",
+				Country = "Belgium"
 			});
 
 			return View( beers );

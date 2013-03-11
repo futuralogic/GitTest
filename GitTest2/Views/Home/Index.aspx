@@ -9,6 +9,7 @@
 	<div>
 		<%= Html.Encode(ViewData["Message"]) %>
 	</div>
+	Beers:<br/>
 	<ul>
 	<% foreach( var drink in Model ) { %>
 		<li><% =drink.Name %> = <% =drink.AlcoholPercent %> </li>
