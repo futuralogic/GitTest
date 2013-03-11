@@ -11,8 +11,8 @@
 	</div>
 	Beers:<br/>
 	<ul>
-	<% foreach( var drink in Model ) { %>
-		<li><% =drink.Name %> = <% =drink.AlcoholPercent %> </li>
+	<% foreach( var drink in Model.OrderBy( o=>o.Rating ) ) { %>
+		<li><% =drink.Name %> = <% =drink.AlcoholPercent %> (<%=drink.Rating%>)</li>
 	<% } %>
 	</ul>
 </body>
