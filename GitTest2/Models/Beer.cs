@@ -6,7 +6,7 @@ namespace GitTest2 {
 		public string Country { get; set; }
 		public string Description { get; set; }
 		public double AlcoholPercent { get; set; }
-		public int Rating { get; set; }
+
 	}
 }
 

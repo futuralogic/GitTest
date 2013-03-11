@@ -19,24 +19,21 @@ namespace Controllers {
 				AlcoholPercent = 6.2,
 				Brewery = "Abbaye Notre-Dame d'Orval",
 				Name = "Orval",
-				Country = "Belgium",
-				Rating = 10,
+				Country = "Belgium"
 			});
 
 			beers.Add( new Beer {
 				AlcoholPercent = 9.0,
 				Brewery = "Unibroue",
 				Name = "Don de Dieu",
-				Country = "Canada",
-				Rating = 8
+				Country = "Canada"
 			});
 
 			beers.Add (new Beer {
 				AlcoholPercent = 12,
 				Brewery = "Gulden Draak",
 				Name = "Gulden Draak",
-				Country = "Belgium",
-				Rating = 10
+				Country = "Belgium"
 			});
 
 			return View( beers );
